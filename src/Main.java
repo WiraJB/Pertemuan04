@@ -6,7 +6,7 @@ public class Main {
         System.out.println("isi Gelas Sekarang : " + isiGelas + "ml");
         System.out.println("Isi Gelas Ketika Penuh : " + penuh + "ml");
 
-        while(isiGelas != penuh){
+       for(isiGelas =0 ; isiGelas <= penuh ; isiGelas++){
             isiGelas++;
             System.out.println("Sedang mengisi gelas..");
             System.out.println("Isi Gelas Sekarang : " + isiGelas + "ml");
